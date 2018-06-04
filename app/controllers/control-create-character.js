@@ -80,6 +80,7 @@ $scope.finalSpells = [];
 $scope.regions = [];
 $scope.regionId = [];
 ////// pull in api /////////
+// New Api route
 function callRaces(){ //SINGLE API CALL
 	$http({ method : 'GET',
 		url : 'http://www.dnd5eapi.co/api/races/',})
